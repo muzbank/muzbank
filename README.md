@@ -5,10 +5,10 @@ Muzbank
 This is code of Map Yandex with setup at json format:
 
 
-<h2>Scheme</h2>
-<div class="content">
-<script src="http://api-maps.yandex.ru/2.0/?load=package.standard&amp;lang=ru-RU" type="text/javascript"></script>
-<script type="text/javascript">// <![CDATA[
+h2>Scheme/h2
+div class="content"
+script src="http://api-maps.yandex.ru/2.0/?load=package.standard&amp;lang=ru-RU" type="text/javascript" /script
+script type="text/javascript"
 var myMap;
 ymaps.ready(init);
 function init()
@@ -52,9 +52,9 @@ function init()
         }
     );
 }
-// ]]></script>
-<div id="map" style="width: 650px; height: 550px;"></div>
-</div>
+/script
+div id="map" style="width: 650px; height: 550px;"  /div
+/div
 
 
 
